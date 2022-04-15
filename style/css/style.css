@@ -32,7 +32,7 @@
 
     footer {
         grid-area: pie;
-        background-color: gray;
+        background-color: #c7c7c7;
         padding: 20px 25px 20px 25px;
     }
 
@@ -228,6 +228,7 @@
     .formulario1 {
         padding: 5px 15% 5px 15%;
     }
+
 }
 
 
@@ -270,5 +271,9 @@
     }
     .textoImgNosotros p {
         padding: 10px 5% 10px 5%;
+    }
+    .textoInfoP {
+        text-align: center;
+        font-weight:bold;
     }
 }
