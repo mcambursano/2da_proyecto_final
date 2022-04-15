@@ -165,6 +165,73 @@
 }
 
 /************************
+        TABLET
+************************/
+@media (max-width: 991px) {
+
+    #gridAreaIndex {
+        display: grid; 
+        grid-template-areas:
+        "cabeza cabeza"
+        "menu menu"
+        "productos productos"
+        "pie pie"
+        ;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto 2.5fr auto;
+
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+
+    #gridAreaFooter {
+        display: grid;
+        grid-template-areas:
+        "texto"
+        "datos"
+        "mapa"
+        ;
+        
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    .destacado {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .destacado h2 {
+        font-size: 2.5rem;
+    }
+
+    .destacado p {
+        font-size: 1rem;
+        width: 60%;
+    }
+
+    .imgLogo {
+        width: 50%;
+    }
+
+    .textoImgNosotros {
+        padding: 15px 5% 15px 5%;
+        flex-direction: column-reverse;
+    }
+    .textoImgNosotros img {
+        padding: 10px 0 10px 0;
+    }
+    .textoImgNosotros p {
+        padding: 10px 25px 10px 25px;
+        width: 80%;
+    }
+    .texto2Nosotros {
+        padding: 15px 10% 15px 10%;
+        text-align: justify;
+    }
+}
+
+
+/************************
         SMARTPHONE
 *************************/
 @media (max-width: 479px){
