@@ -20,7 +20,7 @@
         "pie pie pie"
         ;
         grid-template-columns: 20% auto auto;
-        grid-template-rows: 0.5fr 5fr 1fr;
+        grid-template-rows: 0.5fr 4fr 1fr;
 
         grid-column-gap: 0;
         grid-row-gap: 0;
@@ -155,16 +155,22 @@
     }
 
     .formulario1 {
-        padding: 5px 30% 5px 30%;
+        padding: 5% 20% 0 20%;
+    }
+    .formulario1 h2 {
+        padding-bottom: 5%;
     }
 
     .clienteBox {
         background-color: #194D8C;
         color: #c3c3c3;
-        padding: 7rem 2rem 7rem 2rem;
+        padding: 10% 20% 10% 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .clienteBox div div h2 {
-        padding-bottom: 3rem;
+       padding-bottom: 10%;
     }
 
 }
