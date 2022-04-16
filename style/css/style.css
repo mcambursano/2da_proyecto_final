@@ -188,10 +188,7 @@
         "pie pie"
         ;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 0.1fr 0.1fr 1fr 0.5fr;
-
-        grid-column-gap: 0;
-        grid-row-gap: 0;
+        grid-template-rows: 0fr 0fr 1fr 0fr;
     }
 
 
@@ -288,6 +285,7 @@
         width: 70%;
     }
     .textoImgNosotros p {
-        padding: 10px 5% 10px 5%;
+        padding: 10px 0 10px 0;
+        width: 100%;
     }
 }
