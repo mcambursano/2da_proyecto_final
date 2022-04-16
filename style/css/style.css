@@ -20,7 +20,7 @@
         "pie pie pie"
         ;
         grid-template-columns: 20% auto auto;
-        grid-template-rows: 0.5fr 4fr 1fr;
+        grid-template-rows: 0.2fr 4fr 0.5fr;
 
         grid-column-gap: 0;
         grid-row-gap: 0;
